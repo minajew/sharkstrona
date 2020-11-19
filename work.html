@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>
+    <title>O nas</title>
+</head>
+
+<body>
+    <nav class="nawigacja">
+        <ul class="menu">
+            <li class="logo"><a href="index.html"><img class="logo_shark" src="./img/Sharkagencylogo.png"
+                        alt="Logo shark"></a>
+            </li>
+            <li class="item"><a href="about.html">O nas</a></li>
+            <li class="item"><a href="brands.html">Nasze brandy</a></li>
+            <li class="item"><a href="work.html">Jak działamy?</a></li>
+            </li>
+            <li class="item"><a href="career.html">Kariera</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <section class="header_work">
+        <h1>Jak działamy?</h1>
+    </section>
+    <div class="container">
+        <div class="col-12 center about_tekst">To, co wyróżnia nasze działania na rynku marketingu sportowego w Polsce, to umiejętność selekcji
+            potencjału komercyjnego oraz przekształcenie go w efektywne działania dla naszych partnerów.
+Potencjał komercyjny drzemie w każdej z marek, serwisie internetowym oraz portalu mediów
+społecznościowych. Kluczowe jest jednak wykreowanie precyzyjnych działań, które po odpowiedniej
+adaptacji przełożą się na sukcesywną realizację strategicznych celów naszych partnerów.
+Najważniejszym czynnikiem naszej pracy jest komunikacja. Chcemy tworzyć działania, które będą
+spójne z oczekiwaniami i profilem naszych partnerów. To dzięki wspólnej narracji efekty naszych
+działań są doskonale doceniane przez największe sportowe marki w Polsce.</div>
+    </div>
+
+
+    <div class="footer">
+        <div><h3>Nawigacja</h3>
+            <ul>
+                <li class="menu_stopka"><a href="index.html">Strona główna</a></li>
+                <li class="menu_stopka"><a href="about.html">O nas</a></li>
+                <li class="menu_stopka"><a href="brands.html">Nasze brandy</a></li>
+                <li class="menu_stopka"><a href="work.html">Jak działamy?</a></li>
+                </li>
+                <li class="menu_stopka"><a href="career.html">Kariera</a></li>
+            </ul></div>
+        <div>
+            <h3>O nas</h3><p>Shark Agency to agencja marketingowa, która specjalizuje się w pozyskiwaniu leadów sprzedażowych, kreowaniu wizerunku i content marketingu w branży sportowo-rozrywkowej.</p>
+        </div>
+        <div>
+            <h3>Skontaktuj się!</h3>
+            <a href="mailto:info@sharkagency.pl">info@sharkagency.pl</a><br>
+            Al. Wojska Polskiego 4<br>
+            01-524 Warszawa
+        </div>
+    </div>
+</body>
+
+</html>

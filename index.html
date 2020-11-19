@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>
+    <title>Shark Agency</title>
+</head>
+
+<body>
+    <nav class="nawigacja">
+        <ul class="menu">
+            <li class="logo"><a href="index.html"><img class="logo_shark" src="./img/Sharkagencylogo.png"
+                        alt="Logo shark"></a>
+            </li>
+            <li class="item"><a href="#about">O nas</a></li>
+            <li class="item"><a href="#brands">Nasze brandy</a></li>
+            <li class="item"><a href="#work">Jak działamy?</a></li>
+            </li>
+            <li class="item"><a href="#career">Kariera</a></li>
+            <!-- <li class="item "><a href="#">Blog</a></li> -->
+            <li class="item "><a href="#kontakt">Kontakt</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <section class="header">
+        <h1>Shark Agency</h1>
+        <p>Dziś wyprzedzamy jutro</p>
+    </section>
+
+    <div class="container">
+        <div class="row">
+
+            <div id="about" class="col-12 about center">
+                <h2>O nas</h2>
+                <p>Shark Agency to agencja marketingowa, która specjalizuje się w pozyskiwaniu leadów
+sprzedażowych, kreowaniu wizerunku i content marketingu w branży sportowo-rozrywkowej.
+Jesteśmy wydawcą wielu serwisów sportowych i biznesowych, który współpracuje z największymi markami w Polsce
+takimi jak Totalizator Sportowy, STS, BETFAN, Totolotek czy
+TOTALbet.</p>
+                <a href="./about.html" class="btn">Dowiedz się więcej</a>
+            </div>
+        </div>
+
+        <div class="przerwa"></div>
+
+        <div class="row">
+            <div id="brands" class="col-12 brands center">
+                <h2>Nasze brandy</h2>
+                <p>Grupa Medialna Shark Agency jest wydawcą oraz właścicielem największych serwisów o profilu sportowo-rozrywkowym w Polsce. Nasze portale każdego dnia dostarczają obszernych informacji związanych z bieżącymi wydarzeniami w segmencie sportowo-biznesowym.</p>
+                <a href="brands.html" class="btn">Dowiedz się więcej</a>
+            </div>
+        </div>
+        <div class="przerwa"></div>
+
+        <div class="row">
+            <div id="work" class="col-12 work center">
+                <h2>Jak działamy?</h2>
+                <p>To, co wyróżnia nasze działania na rynku marketingu sportowego w Polsce, to umiejętność selekcji
+potencjału komercyjnego oraz przekształcenie go w efektywne działania dla naszych partnerów.</p>
+                <a href="work.html" class="btn">Dowiedz się więcej</a>
+            </div>
+        </div>
+
+        <div class="przerwa"></div>
+
+        <div class="row">
+            <div id="career" class="col-12 career center">
+                <h2>Kariera</h2>
+                <p>Zespoł Shark Agency to grupa młodych, ambitnych i głodnych sukcesu ekspertów, którzy na co
+dzień łączą pasję do sportu z życiem zawodowym.</p>
+                <a href="career.html" class="btn">Dowiedz się więcej</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="kontakt" class="kontakt">
+        <h1>Skontaktuj się z nami!</h1>
+        <a href="mailto:info@sharkagency.pl" class="kontakt_btn">Kontakt</a>
+    </section>
+
+   
+    <div class="footer">
+        <div><h3>Nawigacja</h3>
+            <ul>
+                <li class="menu_stopka"><a href="index.html">Strona główna</a></li>
+                <li class="menu_stopka"><a href="about.html">O nas</a></li>
+                <li class="menu_stopka"><a href="brands.html">Nasze brandy</a></li>
+                <li class="menu_stopka"><a href="work.html">Jak działamy?</a></li>
+                </li>
+                <li class="menu_stopka"><a href="career.html">Kariera</a></li>
+                <!-- <li class="menu_stopka"><a href="#">Blog</a></li> -->
+                <li class="menu_stopka"><a href="#">Kontakt</a></li>
+            </ul></div>
+        <div>
+            <h3>O nas</h3><p>Shark Agency to agencja marketingowa, która specjalizuje się w pozyskiwaniu leadów sprzedażowych, kreowaniu wizerunku i content marketingu w branży sportowo-rozrywkowej.</p>
+        </div>
+        <div>
+            <h3>Skontaktuj się!</h3>
+            <a href="mailto:info@sharkagency.pl">info@sharkagency.pl</a><br>
+            Al. Wojska Polskiego 4<br>
+            01-524 Warszawa
+        </div>
+    </div>
+
+</body>
+
+</html>

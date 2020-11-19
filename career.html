@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>
+    <title>Kariera</title>
+</head>
+
+<body>
+    <nav class="nawigacja">
+        <ul class="menu">
+            <li class="logo"><a href="index.html"><img class="logo_shark" src="./img/Sharkagencylogo.png"
+                        alt="Logo shark"></a>
+            </li>
+            <li class="item"><a href="about.html">O nas</a></li>
+            <li class="item"><a href="brands.html">Nasze brandy</a></li>
+            <li class="item"><a href="work.html">Jak działamy?</a></li>
+            </li>
+            <li class="item"><a href="career.html">Kariera</a></li>
+
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <section class="header_career">
+        <h1>Kariera</h1>
+    </section>
+    <div class="container">
+        <div class="col-12 center career_tekst">Wszyscy ludzie sukcesu od lat powtarzają słynny cytat Konfucjusza, chińskiego filozofa, który
+powiedział: „Wybierz pracę, którą kochasz, a nie przepracujesz ani jednego dnia więcej w Twoim
+życiu.”
+Zapraszamy do wysłania swojego CV i dołączenia do naszego zespołu, a gwarantujemy, że
+łączenie pasji z zawodem okaże się najlepszą decyzją Twojego życia.</div>
+    </div>
+
+
+    <div class="footer">
+        <div><h3>Nawigacja</h3>
+            <ul>
+                <li class="menu_stopka"><a href="index.html">Strona główna</a></li>
+                <li class="menu_stopka"><a href="about.html">O nas</a></li>
+                <li class="menu_stopka"><a href="brands.html">Nasze brandy</a></li>
+                <li class="menu_stopka"><a href="work.html">Jak działamy?</a></li>
+                </li>
+                <li class="menu_stopka"><a href="career.html">Kariera</a></li>
+            </ul></div>
+        <div>
+            <h3>O nas</h3><p>Shark Agency to agencja marketingowa, która specjalizuje się w pozyskiwaniu leadów sprzedażowych, kreowaniu wizerunku i content marketingu w branży sportowo-rozrywkowej.</p>
+        </div>
+        <div>
+            <h3>Skontaktuj się!</h3>
+            <a href="mailto:info@sharkagency.pl">info@sharkagency.pl</a><br>
+            Al. Wojska Polskiego 4<br>
+            01-524 Warszawa
+        </div>
+    </div>
+</body>
+
+</html>

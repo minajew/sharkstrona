@@ -1,0 +1,325 @@
+/* Header */
+
+section.header {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url(./img/zdjecieglowne.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.header h1 {
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    font-size: 48px;
+
+}
+
+.header p {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Header koniec */
+
+
+.about {
+    background-image: url(./img/onas22.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.brands {
+    background-image: url(./img/naszebrandy1.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.work {
+    background-image: url(./img/jakdzialamy1.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.career {
+    background-image: url(./img/kariera11.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Przycisk start */
+
+.btn {
+    font-size: 20px;
+    /* margin-top: 5%; */
+    background-color: #ff002b;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    /* font-size: 24px; */
+    padding: 13px 19px;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+.btn:hover {
+    background-color: #b3001e;
+    color: white;
+}
+
+/* Przycisk koniec */
+
+.przerwa {
+    margin-top: 100px;
+}
+
+/* .stopka {
+    min-height: 20vh;
+    background-color: #222;
+} */
+
+.stopka_menu li {
+    text-align: left;
+}
+
+p.kontakt_footer {
+    color: black;
+}
+
+.stopka ul li {
+    padding: 0;
+}
+
+
+
+/* Kontakt start */
+
+section.kontakt {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url(./img/kontakt11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.kontakt_btn {
+    font-size: 20px;
+    /* margin-top: 5%; */
+    background-color: #ff002b;
+    border-radius: 42px;
+    /* display: inline-block; */
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    /* font-size: 24px; */
+    padding: 8px 19px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.kontakt_btn:hover {
+
+    background-color: #b3001e;
+    color: white;
+}
+
+/* Postrony */
+
+/* 1 - O nas */
+
+section.header_about {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url(./img/onas22.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.stopka_about {
+    margin-top: 100px;
+}
+
+/* /* Koniec podstrony 1 */
+
+/* 2 - Nasze brandy */
+
+section.header_brands {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url(./img/naszebrandy1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.stopka_brands {
+    margin-top: 100px;
+}
+
+
+/* 3 - jak działamy? */
+
+section.header_work {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url(./img/jakdzialamy1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.stopka_work {
+    margin-top: 100px;
+}
+
+/* 4 - Kariera  */
+
+section.header_career {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url(./img/kariera11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.stopka_career {
+    margin-top: 100px;
+}
+
+.brands_img {
+    width: 100%;
+
+    border-radius: 10%;
+    transition: .3s ease;
+}
+
+.brands_img:hover {
+    transform: scale(1.1);
+}
+
+.brands_txt p {
+    color: black;
+}
+
+.brands_txt h2 {
+    color: black;
+}
+
+.brands_fn {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.break {
+    margin-top: 5vw;
+}
+
+@media (max-width: 720px) {
+    .brands_fn {
+        display: block;
+    }
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.footer div {
+    width: 20%;
+}
+
+.footer * {
+    color: white;
+}
+
+.footer ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer div {
+        width: 60%;
+    }
+    
+
+}
+
+.brands_mobile {
+    display: none;
+}
+
+@media (max-width: 720px) {
+    .brands_mobile {
+        display: block;
+    }
+
+    .brands_desktop {
+        display: none;
+    }
+}

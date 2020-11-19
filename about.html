@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>
+    <title>O nas</title>
+</head>
+
+<body>
+    <nav class="nawigacja">
+        <ul class="menu">
+            <li class="logo"><a href="index.html"><img class="logo_shark" src="./img/Sharkagencylogo.png"
+                        alt="Logo shark"></a>
+            </li>
+            <li class="item"><a href="about.html">O nas</a></li>
+            <li class="item"><a href="brands.html">Nasze brandy</a></li>
+            <li class="item"><a href="work.html">Jak działamy?</a></li>
+            </li>
+            <li class="item"><a href="career.html">Kariera</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <section class="header_about">
+        <h1>O nas</h1>
+    </section>
+    <div class="container">
+        <div class="col-12 center about_tekst">Nasze portfolio składa się z siedmiu portali, z których dwa dedykowane są części sportowo-biznesowej:
+sportmarketing.pl oraz interplay.pl, a pięć poświęconych jest pozostałej części użytkowników
+internetu interesujących się branżą sportową oraz związaną z nią rozrywką: futbolnews.pl,
+zzapolowy.com, gramgrubo.pl, hiszpanskapilka.net, ektraklasatrolls.pl.
+Dzięki naszym siedmiu portalom internetowym oraz 12 serwisom w mediach społecznościowych docieramy
+do 3,3 miliona unikalnych użytkowników miesięcznie, nasze media społecznościowe obserwuje łącznie
+627 370 użytkowników, a grupy w mediach społecznościowych skupiają łącznie blisko 100 000 członków. <br><br>Shark Agency to grupa ekspertów specjalizująca się również w dostarczaniu doradztwa strategicznego z
+zakresu: marketingu sportowego, kreowania wizerunku medialnego i zarządzania kontami w SM, performance marketingu, sponsoringu.</div>
+    </div>
+
+
+    <div class="footer">
+        <div><h3>Nawigacja</h3>
+            <ul>
+                <li class="menu_stopka"><a href="index.html">Strona główna</a></li>
+                <li class="menu_stopka"><a href="about.html">O nas</a></li>
+                <li class="menu_stopka"><a href="brands.html">Nasze brandy</a></li>
+                <li class="menu_stopka"><a href="work.html">Jak działamy?</a></li>
+                </li>
+                <li class="menu_stopka"><a href="career.html">Kariera</a></li>
+                <!-- <li class="menu_stopka"><a href="#">Blog</a></li> -->
+                <li class="menu_stopka"><a href="#">Kontakt</a></li>
+            </ul></div>
+        <div>
+            <h3>O nas</h3><p>Shark Agency to agencja marketingowa, która specjalizuje się w pozyskiwaniu leadów sprzedażowych, kreowaniu wizerunku i content marketingu w branży sportowo-rozrywkowej.</p>
+        </div>
+        <div>
+            <h3>Skontaktuj się!</h3>
+            <a href="mailto:info@sharkagency.pl">info@sharkagency.pl</a><br>
+            Al. Wojska Polskiego 4<br>
+            01-524 Warszawa
+        </div>
+    </div>
+</body>
+
+</html>
